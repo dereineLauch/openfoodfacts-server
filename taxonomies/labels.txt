@@ -3780,6 +3780,7 @@ label_categories:en: en:Origins, en:Geographic label
 web:pl: https://www.gov.pl/web/rolnictwo/produkt-polski1
 wikidata:en: Q43151531
 
+< en:Contains milk
 en: Polish milk
 bg: Полско мляко
 cs: Polské mléko
@@ -3861,6 +3862,7 @@ image:en: fran-sverige-kott.90x90.png
 ingredients:en: en:meat
 web:sv: https://fransverige.se/svenska-ravaror-all-varldens-mat/vad-ar-fran-sverige/market-kott-fran-sverige/
 
+< en:Contains milk
 < sv:Från Sverige
 xx: Mjölk från Sverige
 sv: Mjölk från Sverige
@@ -18693,9 +18695,11 @@ ru: Знак соответствия государственной систе�
 uk: Знак відповідності державної системи сертифікації (добровільна сертифікація)
 country:en: en:Ukraine
 
+< en:Contains milk
 en: Real California Milk
 country:en: United States
 
+< en:Contains milk
 en: Real California Cheese
 country:en: United States
 
@@ -18725,6 +18729,7 @@ hu: 100% marhahús, Tiszta marhahús
 it: Puro manzo
 nl: puur rund
 
+< en:Contains milk
 en: Pure butter
 ca: Mantega pura
 de: 100% Butter
@@ -19990,20 +19995,7 @@ es: La Sociedad Vegetariana
 he: איגוד הצמחונות
 wikidata:en: Q2154954
 
-en: Ovo-vegetarian
-ca: Ovovegetarià
-de: Ovo-vegetarisch
-es: Ovo-vegetariano
-fi: ovo-vegetaarinen
-fr: Ovo-végétarien
-hu: Ovo-vegetáriánus
-it: Ovo-vegetariano
-pt: Ovo-vegetariano
-sv: Ovo-vegetarisk, ovovegetarisk, ovovegetarianer
-wikidata:en: Q3543760
-
-< en:Lacto-vegetarian
-< en:Ovo-vegetarian
+< en:Vegetarian
 en: Ovo-lacto-vegetarian
 ca: Ovolactovegetarià
 de: Ovo-lacto-vegetarisch
@@ -20016,6 +20008,23 @@ pt: Ovo-lacto-vegetariano
 sv: Lakto-ovovegetarisk, lakto-ovovegetarianer
 wikidata:en: Q3544800
 
+# Ovo-vegetarians eat eggs, but not dairy
+< en:Ovo-lacto-vegetarian
+en: Ovo-vegetarian
+ca: Ovovegetarià
+de: Ovo-vegetarisch
+es: Ovo-vegetariano
+fi: ovo-vegetaarinen
+fr: Ovo-végétarien
+hu: Ovo-vegetáriánus
+it: Ovo-vegetariano
+pt: Ovo-vegetariano
+sv: Ovo-vegetarisk, ovovegetarisk, ovovegetarianer
+incompatible_with:en: labels:en:contains-milk
+wikidata:en: Q3543760
+
+# Lacto-vegetarians eat dairy, but not eggs
+< en:Ovo-lacto-vegetarian
 en: Lacto-vegetarian
 ca: Lactovegetarià
 de: Lacto-vegetarisch
@@ -20026,6 +20035,7 @@ hu: Lakto-vegetáriánus
 it: Latto-vegetariano
 pt: Latto-vegetariano
 sv: Lakto-vegetarisk
+# incompatible_with:en: labels:en:contains-eggs
 wikidata:en: Q3496076
 
 # non English needs the English synonyms too so that "European V-Label Végétarien" can be recognized too
@@ -20383,6 +20393,7 @@ pt: Defumado natural, fumado natural, naturalmente defumado, naturalmente fumado
 
 fr: Garantie IPLC, Institut Professionnel du Lait de Consommation, IPLC
 
+< en:Contains milk
 en: French milk
 bg: Френско мляко
 ca: Llet francesa
