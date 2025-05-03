@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.65.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.64.0...v2.65.0) (2025-05-03)
+
+
+### Features
+
+* Handle label/ingredient conflicts ([#11831](https://github.com/openfoodfacts/openfoodfacts-server/issues/11831)) ([522aed9](https://github.com/openfoodfacts/openfoodfacts-server/commit/522aed915f66ccef49b6e93d987b836c52b20963))
+
+
+### Bug Fixes
+
+* Update sign_in_form.tt.html with mobile ready buttons for sign in ([783b93d](https://github.com/openfoodfacts/openfoodfacts-server/commit/783b93dd2996b2ff9bfe30bcd511f29e8354935b))
+* Update sign_in_form.tt.html with mobile ready buttons for sign in ([#11844](https://github.com/openfoodfacts/openfoodfacts-server/issues/11844)) ([783b93d](https://github.com/openfoodfacts/openfoodfacts-server/commit/783b93dd2996b2ff9bfe30bcd511f29e8354935b))
+
 ## [2.64.0](https://github.com/openfoodfacts/openfoodfacts-server/compare/v2.63.0...v2.64.0) (2025-04-30)
 
 
